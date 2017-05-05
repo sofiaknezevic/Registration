@@ -60,12 +60,8 @@
 			children = (
 				0818F4021EBC05B400505BBB /* AppDelegate.h */,
 				0818F4031EBC05B400505BBB /* AppDelegate.m */,
-				0818F4051EBC05B400505BBB /* ViewController.h */,
-				0818F4061EBC05B400505BBB /* ViewController.m */,
-				0818F4081EBC05B400505BBB /* Main.storyboard */,
-				0818F40B1EBC05B400505BBB /* Assets.xcassets */,
-				0818F40D1EBC05B400505BBB /* LaunchScreen.storyboard */,
-				0818F4101EBC05B400505BBB /* Info.plist */,
+				0818F4161EBC106E00505BBB /* ViewControllers */,
+				0818F4171EBC107900505BBB /* StoryBoards */,
 				0818F3FF1EBC05B400505BBB /* Supporting Files */,
 			);
 			path = Registration;
@@ -74,9 +70,29 @@
 		0818F3FF1EBC05B400505BBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0818F40B1EBC05B400505BBB /* Assets.xcassets */,
+				0818F4101EBC05B400505BBB /* Info.plist */,
 				0818F4001EBC05B400505BBB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0818F4161EBC106E00505BBB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0818F4051EBC05B400505BBB /* ViewController.h */,
+				0818F4061EBC05B400505BBB /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0818F4171EBC107900505BBB /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0818F4081EBC05B400505BBB /* Main.storyboard */,
+				0818F40D1EBC05B400505BBB /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
